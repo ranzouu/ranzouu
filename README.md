@@ -1,23 +1,117 @@
-# Rayson Severiano Rodrigues
+<div align="center">
 
-Estudante de **Análise e Desenvolvimento de Sistemas (UNIGRANDE, Fortaleza/CE)**, em transição da educação física para a engenharia de software com foco em **IA**. Construo produtos e ferramentas que resolvem problemas reais, com métricas honestas e código público.
+<pre>╭────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ ● ● ●   rayson@fortaleza — zsh — 96×32                                                             │
+├────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│  $ whoami                                                                                          │
+│  rayson severiano rodrigues                                                                        │
+│  $ cat perfil.md                                                                                   │
+│  estudante de ADS (UNIGRANDE, fortaleza/ce), em transicao da                                       │
+│  educacao fisica para a engenharia de software, com foco em ia.                                    │
+│  construo produtos e ferramentas que resolvem problemas reais,                                     │
+│  com metricas honestas e codigo publico.                                                           │
+│                                                                                                    │
+│  $ neofetch                                                                                        │
+│                                         ██                                                         │
+│                                       ███   host   ......... estudante de ADS (UNIGRANDE)          │
+│      ██████████████████████████  ███ ██     os     .............. hackintosh T480 · Tahoe          │
+│       ████████████████████ ███  ██  ██      shell  ....................... python · swift          │
+│          ████████████████  ██  ██ ███       pkgs   .............. pandas · sklearn · ccxt          │
+│           █  ██      ███ ███ ███ ██         wm     ...... swiftui · healthkit · streamlit          │
+│         ███ ██████████  ██  ██  ██          theme  ........... sumi-e — tinta sobre papel          │
+│        ██  ██████████  ██  ██  ██           agora  ....... bots de trading + portfolio ML          │
+│       ██ ██████  ███████ ███ ███                                                                   │
+│     ███ ██    ██ ███    ██  ██                                                                     │
+│    ██  ██      ██  ██  ██  ████████████████                                                        │
+│   ██ ███        ███ ████  ████████████████                                                         │
+│ ███ ███           ██  █████████████████                                                            │
+│                                                                                                    │
+│  $ ls ~/interesses ~/linguagens ~/projetos ~/hf ~/links                                            │
+│  7 projetos publicados · 5 publicacoes no HF · links abaixo ▌                                      │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────╯</pre>
 
-**Publicações no Hugging Face — [huggingface.co/ranzouu](https://huggingface.co/ranzouu)**
+</div>
 
-| Repositório | O que é |
-|---|---|
-| [leadforge-intent-classifier](https://huggingface.co/ranzouu/leadforge-intent-classifier) | Modelo de classificação de intenção de leads — validação cruzada 5-fold honesta (accuracy 0.633 ± 0.192), sem número in-sample |
-| [anomaly-detection-benchmark](https://huggingface.co/datasets/ranzouu/anomaly-detection-benchmark) | Benchmark com 12 anomalias injetadas e ground truth por construção; z-score / IQR / STL comparados |
-| [retrieval-benchmark-ptbr](https://huggingface.co/datasets/ranzouu/retrieval-benchmark-ptbr) | 25 queries julgadas em PT-BR — hit@3 0.84, MRR@3 0.79 |
-| [alimentos-brasileiros-nutricao](https://huggingface.co/datasets/ranzouu/alimentos-brasileiros-nutricao) | 20 alimentos brasileiros com macros por 100g, extraídos do app NutriScan |
-| [prompt-evaluator](https://huggingface.co/spaces/ranzouu/prompt-evaluator) | 3 variantes de prompt comparadas em 36 chamadas reais (gpt-oss-20b via Groq) |
+```
+$ ls ~/interesses/
+```
 
-**Projetos em destaque**
+- `├─ ia & llms ...............` **rag · benchmarks pt-br · métricas honestas**
+- `├─ ios & watchos ............` **swift · apps 100% no aparelho · offline**
+- `├─ dados & automação ........` **pandas · dashboards · bots**
+- `├─ cripto & trading .........` **bots · backtests · funding rates · risco**
+- `├─ games ....................` **pokémon vgc · bichinhos digitais de pulso**
+- `├─ hardware .................` **hackintosh · eletrônica · engenharia reversa**
+- `└─ corpo & força ............` **raízes em educação física**
 
-- [LeadForge](https://github.com/ranzouu) — suíte de IA para prospecção B2B: RAG com benchmark, avaliador de prompts, classificador de intenção e detector de anomalias, deploy em Streamlit Cloud
-- [NutriScan AI](https://github.com/ranzouu/nutriscanai) — app iOS que lê o rótulo do alimento por OCR no próprio aparelho e soma calorias/macros da refeição, 100% offline
-- [Portfólio e artigo técnico](https://ranzouu.github.io) — site estático com deploy automático; artigo sobre protocolo de métricas honestas em [`/artigo`](https://ranzouu.github.io/artigo/)
+```
+$ ls ~/linguagens/
+```
 
-**Stack** — Python · pandas · scikit-learn · httpx · LLMs (OpenAI, Groq, Ollama) · Swift/SwiftUI · Git · GitHub Actions · Streamlit · testes automatizados
+- `├─ linguagens .......` **python · swift**
+- `├─ mobile ...........` **swiftui · watchos · healthkit · widgetkit · vision (ocr) · tts**
+- `├─ dados & ml .......` **pandas · scikit-learn · ccxt · sqlalchemy · sqlite**
+- `├─ automação & devops` **pytest · click · streamlit · git · github actions**
+- `└─ llms .............` **openai · groq · ollama**
 
-Fortaleza, CE · híbrido/remoto · [LinkedIn](https://www.linkedin.com/in/rayson-severiano-a4a576140/)
+```
+$ ls -R ~/projetos/
+```
+
+- [`一`] **[nutriscanai](https://github.com/ranzouu/nutriscanai)** `─` swift · vision
+  `│` app iOS que lê o rótulo por OCR no aparelhe e soma calorias/macros — 100% offline
+- [`二`] **[tameru](https://github.com/ranzouu/tameru)** `─` swift · healthkit
+  `│` companheiro digital iPhone/Watch, motor comportamental em Swift puro, 49 testes (adversariais, stress, concorrência)
+- [`三`] **[tomawatchi](https://github.com/ranzouu/tomawatchi)** `─` swift · watchos
+  `│` bichinho de pulso: passos reais do HealthKit cuidam do pet, 93 espécies, batalha P2P
+- [`四`] **[leitorwatch](https://github.com/ranzouu/leitorwatch)** `─` swift · tts
+  `│` leitor no Apple Watch em RSVP (uma palavra por vez), livros do iCloud Drive
+- [`五`] **[dashboard-vendas-financeiro](https://github.com/ranzouu/dashboard-vendas-financeiro)** `─` python · pandas · aws
+  `│` indicadores de vendas e relatórios financeiros
+- [`六`] **[pokevgc-cli](https://github.com/ranzouu/pokevgc-cli)** `─` python · cli
+  `│` movesets, formatos e stats do cenário VGC direto no terminal
+
+**[LeadForge](https://github.com/ranzouu)** — suíte de IA para prospecção B2B: [rag-lite](https://github.com/ranzouu/leadforge-rag-lite) · [intent-classifier](https://github.com/ranzouu/leadforge-intent-classifier) · [anomaly-detector](https://github.com/ranzouu/leadforge-anomaly-detector) · [prompt-evaluator](https://github.com/ranzouu/leadforge-prompt-evaluator)
+
+```
+$ ls ~/hf/
+```
+
+[huggingface.co/ranzouu](https://huggingface.co/ranzouu)
+
+- **[leadforge-intent-classifier](https://huggingface.co/ranzouu/leadforge-intent-classifier)**
+  `└─` classificador de intenção de leads — validação cruzada 5-fold honesta (accuracy 0.633 ± 0.192), sem número in-sample
+- **[anomaly-detection-benchmark](https://huggingface.co/datasets/ranzouu/anomaly-detection-benchmark)**
+  `└─` 12 anomalias injetadas com ground truth por construção; z-score / IQR / STL comparados
+- **[retrieval-benchmark-ptbr](https://huggingface.co/datasets/ranzouu/retrieval-benchmark-ptbr)**
+  `└─` 25 queries julgadas em PT-BR — hit@3 0.84, MRR@3 0.79
+- **[alimentos-brasileiros-nutricao](https://huggingface.co/datasets/ranzouu/alimentos-brasileiros-nutricao)**
+  `└─` 20 alimentos brasileiros com macros por 100g, extraídos do NutriScan
+- **[prompt-evaluator](https://huggingface.co/spaces/ranzouu/prompt-evaluator)**
+  `└─` 3 variantes de prompt comparadas em 36 chamadas reais (gpt-oss-20b via Groq)
+
+```
+$ open ~/links/
+```
+
+<div align="center">
+
+[ranzouu.github.io](https://ranzouu.github.io) · [github/ranzouu](https://github.com/ranzouu) · [huggingface/ranzouu](https://huggingface.co/ranzouu) · [linkedin](https://www.linkedin.com/in/rayson-severiano-a4a576140/) · [rayson.severiano@gmail.com](mailto:rayson.severiano@gmail.com)
+
+</div>
+
+<div align="center">
+
+<pre>        /\        /\        /\
+   /\  /  \  /\  /  \  /\  /  \  /\
+  /  \/    \/  \/    \/  \/    \/  \
+
+        .------.
+        |  R   |
+        '------'
+   fortaleza, ce · brasil · dois mil e vinte e seis
+</pre>
+
+</div>
+
+*feito em fortaleza — tinta sobre papel, hoje num terminal.*
